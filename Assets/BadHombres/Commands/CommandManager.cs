@@ -28,7 +28,6 @@ namespace BadHombres.Commands
                 if (command == null) return;
 
                 command.Execute(data);
-                Debug.LogFormat("Excuted command of type {0} with data: {1}", commandType.Name, data);
             }
 
         }
